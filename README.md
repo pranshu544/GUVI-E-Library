@@ -38,7 +38,7 @@ This project is used by the following:
 **Email Notifications :** Nodemailer or similar library
 
 
-## Appendix
+## About Source code
 
 Currently we are working on the source code that's why code is not available.
 
