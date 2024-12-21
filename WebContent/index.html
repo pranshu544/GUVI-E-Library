@@ -5,7 +5,8 @@
 <title>e-Library</title>
 <link rel="stylesheet" href="bootstrap.min.css"/>
 </head>
-<body>
+<body style="background-image: url('/WebContent/images/1.jpg'); background-size: cover;background-position: center;">
+  
 <nav class="navbar navbar-inverse">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -32,18 +33,18 @@
 </nav>
 
 <div class="container-fluid">
-<h1>eLibrary</h1>
+<h1 style="color: white;">eLibrary</h1>
 
 <div class="row">
   <div class="col-md-6">
-  <h3>Admin Login</h3>
+  <h3 style="color: white;">Admin Login</h3>
   <form action="AdminLogin" method="post" style="width:300px">
   <div class="form-group">
-    <label for="email1">Email address</label>
+    <label style="color: white;", for="email1">Email address</label>
     <input type="email" class="form-control" name="email" id="email1" placeholder="Email"/>
   </div>
   <div class="form-group">
-    <label for="password1">Password</label>
+    <label style="color: white;" for="password1">Password</label>
     <input type="password" class="form-control" name="password" id="password1" placeholder="Password"/>
   </div>  
   <button type="submit" class="btn btn-primary">Login</button>
@@ -51,14 +52,14 @@
   
   </div>
   <div class="col-md-6">
-  <h3>Librarian Login</h3>
+  <h3 style="color: white;">Librarian Login</h3>
   <form action="LibrarianLogin" method="post" style="width:300px">
   <div class="form-group">
-    <label for="email1">Email address</label>
-    <input type="email" class="form-control" id="email1" name="email" placeholder="Email"/>
+    <label style="color: white;" for="email1">Email address</label>
+    <input  type="email" class="form-control" id="email1" name="email" placeholder="Email"/>
   </div>
   <div class="form-group">
-    <label for="password1">Password</label>
+    <label style="color: white;" for="password1">Password</label>
     <input type="password" class="form-control" id="password1" name="password" placeholder="Password"/>
   </div>  
   <button type="submit" class="btn btn-primary">Login</button>
@@ -66,7 +67,9 @@
 </div>
   </div>
 </div>
+  <script src="script.js"></script>
   <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
   <script src="bootstrap.min.js"></script>
 </body>
 </html>
